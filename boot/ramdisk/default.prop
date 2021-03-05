@@ -1,0 +1,32 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=1
+ro.oem_unlock_supported=true
+ro.zygote=zygote32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=quicken
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+debug.atrace.tags.enableflags=0
+camera2.portability.force_api=1
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Fri Mar 5 19:19:54 IST 2021
+ro.bootimage.build.date.utc=1614952194
+ro.bootimage.build.fingerprint=qcom/msm8916_32/msm8916_32:8.0.0/OPR1.170623.032/abhish03051919:userdebug/test-keys
+persist.sys.usb.config=adb
